@@ -35,3 +35,5 @@ steps:
     cd android/testng-examples
     mvn test -P first
   displayName: 'Running the Android test'
+
+- task: BrowserStackResults@0
